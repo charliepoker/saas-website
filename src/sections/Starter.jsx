@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+
 import Button from "../components/Button";
 import { useScroll } from "../components/useScroll";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -14,7 +14,7 @@ export default function Starter() {
 
   return (
     <div className="main-container" ref={element}>
-      {/* <Navbar /> */}
+    
       <div className="container">
         <motion.div
           className="content"
