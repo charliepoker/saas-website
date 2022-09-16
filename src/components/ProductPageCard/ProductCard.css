@@ -1,0 +1,43 @@
+.product__card {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(14, 31, 53, 0.1),
+    0px 8px 16px rgba(14, 31, 53, 0.16),
+    0px 16px 28px -1px rgba(14, 31, 53, 0.1);
+  border-radius: 14px;
+  /* width: 15%; */
+  padding: 2rem 2rem;
+}
+
+.logo__tile {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.logo__tile h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 23px;
+  padding-bottom: 2rem;
+}
+
+.product__card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.product__card p {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 1.5rem;
+}
+
+.button__container {
+  display: flex;
+  justify-content: flex-end;
+}

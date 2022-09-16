@@ -1,0 +1,173 @@
+.product__header h2 {
+  text-align: center;
+  margin: 4rem 0;
+  color: rgb(18, 18, 88);
+  font-size: 2.5rem;
+}
+
+.lamp_prod-container {
+  height: auto;
+  width: 100%;
+  padding: 50px 7%;
+  position: relative;
+  overflow: hidden;
+  transform: scale(0.95);
+  /* animation: scaleUp 0.5s forwards; */
+  border-radius: 30px;
+  transform-origin: center;
+
+  box-sizing: border-box;
+}
+
+.lamp_prod-courier {
+  background: rgb(1, 128, 100);
+}
+
+.lamp_prod-delivery {
+  background: rgb(67, 68, 132);
+}
+.lamp_prod-health {
+  background: #0c9edd;
+}
+.lamp_prod-transport {
+  background: rgb(3, 3, 22);
+}
+.lamp_prod-banking {
+  background: #2c5c68;
+}
+.lamp_prod-food {
+  background: #ff611d;
+}
+
+.lamp_prod-edtech {
+  background: #1098ab;
+}
+.lamp_prod-business {
+  background: #0085c3;
+}
+
+.lamp_prod-texts {
+  margin-bottom: 3rem;
+}
+
+.lamp_prod-texts h2 {
+  color: #f3f3f3;
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+  opacity: 0;
+
+  animation: fadeCenter 0.5s 0.6s forwards;
+}
+
+.lamp_prod-texts p {
+  color: #f3f3f3;
+  font-size: 1rem;
+  width: 50%;
+  line-height: 1.2;
+  opacity: 0;
+  animation: fadeCenter 0.5s 0.6s forwards;
+}
+
+/* .lamp_prod-card-container::after {
+  content: "";
+  height: 100rem;
+  width: 100rem;
+  background: #ff2e2e;
+  bottom: -200%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  animation: fadeUp 0.8s 0.3s forwards ease-out;
+} */
+
+/* .lamp_prod-hr::after {
+  content: "";
+  height: 50rem;
+  width: 50rem;
+  background: #99e19e;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  animation: fadeUp 0.8s 0.3s forwards ease-out;
+}
+.lamp_prod-agric::after {
+  content: "";
+  height: 100rem;
+  width: 100rem;
+  background: #c1c710;
+  bottom: -200%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  animation: fadeUp 0.8s 0.3s forwards ease-out;
+} */
+
+.lamp_prod-card {
+  width: 30rem;
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  z-index: 999999999999999;
+  opacity: 0;
+  animation: fadeCenter 2s 0.9s forwards;
+}
+.lamp_prod-card h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.lamp_prod-card p {
+  font-size: 1.3rem;
+  margin-bottom: 4.5rem;
+}
+
+.lamp_prod-card a {
+  font-size: 1.3rem;
+  background: black;
+  padding: 1.5rem 3rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5rem;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.lamp_prod-card a:hover {
+  background: rgb(129, 8, 8);
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(95%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+@keyframes fadeUp {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: -70%;
+  }
+}
+@keyframes fadeCenter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

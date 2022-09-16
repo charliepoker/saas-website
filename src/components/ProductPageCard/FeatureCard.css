@@ -1,0 +1,90 @@
+.card__container {
+  /* background: rgba(0, 90, 52, 0.1); */
+  /* box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3); */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px 0px;
+  padding: 2rem 2rem;
+  width: 25%;
+  border-radius: 5px;
+  border-bottom: 4px solid #c00c0c;
+  transition: 0.4s ease-in-out;
+  overflow: hidden !important;
+}
+
+.card__container:hover {
+  box-shadow: rgba(192, 12, 12, 1) 5px 5px, rgba(244, 78, 78, 1) 10px 10px,
+    rgba(253, 225, 225, 1) 15px 15px;
+}
+
+.card__container h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.card__container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+/* MOBILE VIEW*/
+@media screen and (max-width: 480px) {
+  .card__container {
+    background: rgba(0, 90, 52, 0.1);
+    padding: 2rem 3rem;
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 4px solid #c00c0c;
+    margin-bottom: 3rem;
+  }
+
+  .card__container h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .card__container p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+/* DESKTOP VIEW (13inches) */
+@media screen and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .card__container {
+    background: rgba(0, 90, 52, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    border-bottom: 4px solid #c00c0c;
+    margin-bottom: 3rem;
+  }
+
+  .card__container h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: .5rem;
+  }
+
+  .card__container p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

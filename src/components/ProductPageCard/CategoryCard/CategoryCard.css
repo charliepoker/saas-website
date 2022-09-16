@@ -1,0 +1,38 @@
+.categoryCard__container {
+  margin: 5rem;
+  background: teal;
+  border-radius: 18px;
+  padding: 2rem;
+  color: #fff;
+  width: 20%;
+}
+
+.card__logo {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.card__tagline {
+  font-size: 14px;
+  margin: 0px 0px 24px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 2rem 0 0 0;
+}
+
+.card__cta {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.card__cta h3 {
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.card__cta span {
+  padding-left: 2rem;
+}
